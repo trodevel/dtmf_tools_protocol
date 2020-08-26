@@ -22,7 +22,7 @@ const tone_e__TONE_9               = 9;
 const tone_e__TONE_A               = 10;
 const tone_e__TONE_B               = 11;
 const tone_e__TONE_C               = 12;
-const tone_e__TONE_E               = 13;
+const tone_e__TONE_D               = 13;
 const tone_e__TONE_STAR            = 14;
 const tone_e__TONE_HASH            = 15;
 

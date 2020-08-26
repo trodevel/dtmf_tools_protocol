@@ -1,7 +1,7 @@
 // includes
 #include "object_initializer.h"
 
-namespace dtmf_tools_protocol
+namespace dtmf_tools
 {
 
 // objects
@@ -12,5 +12,5 @@ namespace dtmf_tools_protocol
 
 // messages (constructors)
 
-} // namespace dtmf_tools_protocol
+} // namespace dtmf_tools
 

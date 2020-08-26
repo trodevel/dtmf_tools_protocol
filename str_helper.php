@@ -25,7 +25,7 @@ function to_string__tone_e( $r )
         tone_e__TONE_A => 'TONE_A',
         tone_e__TONE_B => 'TONE_B',
         tone_e__TONE_C => 'TONE_C',
-        tone_e__TONE_E => 'TONE_E',
+        tone_e__TONE_D => 'TONE_D',
         tone_e__TONE_STAR => 'TONE_STAR',
         tone_e__TONE_HASH => 'TONE_HASH',
     );

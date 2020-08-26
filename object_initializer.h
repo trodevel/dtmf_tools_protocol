@@ -1,10 +1,10 @@
-#ifndef APG_DTMF_TOOLS_PROTOCOL__OBJECT_INITIALIZER_H
-#define APG_DTMF_TOOLS_PROTOCOL__OBJECT_INITIALIZER_H
+#ifndef APG_DTMF_TOOLS__OBJECT_INITIALIZER_H
+#define APG_DTMF_TOOLS__OBJECT_INITIALIZER_H
 
 // includes
 #include "protocol.h"
 
-namespace dtmf_tools_protocol
+namespace dtmf_tools
 {
 
 // objects
@@ -19,6 +19,6 @@ namespace dtmf_tools_protocol
 // messages (constructors)
 
 
-} // namespace dtmf_tools_protocol
+} // namespace dtmf_tools
 
-#endif // APG_DTMF_TOOLS_PROTOCOL__OBJECT_INITIALIZER_H
+#endif // APG_DTMF_TOOLS__OBJECT_INITIALIZER_H

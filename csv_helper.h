@@ -1,5 +1,5 @@
-#ifndef APG_DTMF_TOOLS_PROTOCOL__CSV_HELPER_H
-#define APG_DTMF_TOOLS_PROTOCOL__CSV_HELPER_H
+#ifndef APG_DTMF_TOOLS__CSV_HELPER_H
+#define APG_DTMF_TOOLS__CSV_HELPER_H
 
 // system includes
 #include <sstream>
@@ -16,6 +16,14 @@ namespace csv_helper
 // enums
 std::ostream & write( std::ostream & os, const tone_e r );
 
+// objects
+
+// base messages
+
+// messages
+
+// generic
+
 template<class T>
 std::string to_csv( const T & l )
 {
@@ -30,4 +38,4 @@ std::string to_csv( const T & l )
 
 } // namespace dtmf_tools
 
-#endif // APG_DTMF_TOOLS_PROTOCOL__CSV_HELPER_H
+#endif // APG_DTMF_TOOLS__CSV_HELPER_H

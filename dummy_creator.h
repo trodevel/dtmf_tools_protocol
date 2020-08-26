@@ -1,5 +1,5 @@
-#ifndef APG_DTMF_TOOLS_PROTOCOL__DUMMY_CREATOR_H
-#define APG_DTMF_TOOLS_PROTOCOL__DUMMY_CREATOR_H
+#ifndef APG_DTMF_TOOLS__DUMMY_CREATOR_H
+#define APG_DTMF_TOOLS__DUMMY_CREATOR_H
 
 // includes
 #include "protocol.h"
@@ -14,8 +14,14 @@ namespace dummy
 
 tone_e create__tone_e();
 
+// objects
+
+
+// messages
+
+
 } // namespace dummy
 
 } // namespace dtmf_tools
 
-#endif // APG_DTMF_TOOLS_PROTOCOL__DUMMY_CREATOR_H
+#endif // APG_DTMF_TOOLS__DUMMY_CREATOR_H
