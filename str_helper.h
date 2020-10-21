@@ -7,7 +7,7 @@
 // includes
 #include "protocol.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace str_helper
@@ -34,6 +34,6 @@ std::string to_string( const T & l )
 
 } // namespace str_helper
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 
 #endif // APG_DTMF_TOOLS__STR_HELPER_H

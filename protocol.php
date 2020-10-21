@@ -1,6 +1,6 @@
 <?php
 
-namespace dtmf_tools;
+namespace dtmf_tools_protocol;
 
 
 // includes
@@ -26,7 +26,7 @@ const tone_e__TONE_D               = 13;
 const tone_e__TONE_STAR            = 14;
 const tone_e__TONE_HASH            = 15;
 
-# namespace_end dtmf_tools
+// namespace_end dtmf_tools_protocol
 
 
 ?>

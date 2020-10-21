@@ -2,7 +2,7 @@
 #include "validator.h"
 #include "basic_parser/validator.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace validator
@@ -28,5 +28,5 @@ bool validate( const std::string & prefix, const tone_e r )
 
 } // namespace validator
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 

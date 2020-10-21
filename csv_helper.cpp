@@ -6,7 +6,7 @@
 #include "csv_helper.h"
 #include "basic_parser/csv_helper.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace csv_helper
@@ -32,5 +32,5 @@ std::ostream & write( std::ostream & os, const tone_e r )
 
 } // namespace csv_helper
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 

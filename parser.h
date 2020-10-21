@@ -6,7 +6,7 @@
 #include "enums.h"
 #include "protocol.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace parser
@@ -30,6 +30,6 @@ void get_value_or_throw( tone_e * res, const std::string & key, const generic_re
 
 } // namespace parser
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 
 #endif // APG_DTMF_TOOLS__PARSER_H

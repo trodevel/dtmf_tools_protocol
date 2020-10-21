@@ -3,7 +3,7 @@
 #include "basic_parser/dummy_creator.h"
 #include "object_initializer.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace dummy
@@ -28,5 +28,5 @@ tone_e create__tone_e()
 
 } // namespace dummy
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 

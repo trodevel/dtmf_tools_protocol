@@ -1,6 +1,6 @@
 <?php
 
-namespace dtmf_tools;
+namespace dtmf_tools_protocol;
 
 
 // includes
@@ -29,7 +29,7 @@ class Parser extends \basic_parser\Parser
 protected static function parse_csv_array( $csv_arr )
 {
     if( sizeof( $csv_arr ) < 1 )
-        return self::create_parse_error();
+        return NULL;
 
     $handler_map = array(
         // messages
@@ -39,7 +39,7 @@ protected static function parse_csv_array( $csv_arr )
 
     if( array_key_exists( $type, $handler_map ) )
     {
-        $func = '\\dtmf_tools\\' . $handler_map[ $type ];
+        $func = '\\dtmf_tools_protocol\\' . $handler_map[ $type ];
         return $func( $csv_arr[0] );
     }
 
@@ -48,7 +48,7 @@ protected static function parse_csv_array( $csv_arr )
 
 }
 
-# namespace_end dtmf_tools
+// namespace_end dtmf_tools_protocol
 
 
 ?>

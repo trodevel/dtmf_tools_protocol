@@ -19,13 +19,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 13520 $ $Date:: 2020-08-19 #$ $Author: serge $
+// $Revision: 13990 $ $Date:: 2020-10-21 #$ $Author: serge $
 
 #include "str_helper.h"             // self
 
 #include "dtmf_tools/str_helper.h"  // to_string
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace str_helper
@@ -42,4 +42,4 @@ std::ostream & write( std::ostream & os, const tone_e r )
 
 } // namespace str_helper
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol

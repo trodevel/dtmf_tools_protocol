@@ -1,6 +1,6 @@
 <?php
 
-namespace dtmf_tools;
+namespace dtmf_tools_protocol;
 
 
 // includes
@@ -33,14 +33,14 @@ function to_generic_request( $obj )
 
     if( array_key_exists( $type, $handler_map ) )
     {
-        $func = '\\dtmf_tools\\' . $handler_map[ $type ];
+        $func = '\\dtmf_tools_protocol\\' . $handler_map[ $type ];
         return $func( $obj );
     }
 
     return NULL;
 }
 
-# namespace_end dtmf_tools
+// namespace_end dtmf_tools_protocol
 
 
 ?>

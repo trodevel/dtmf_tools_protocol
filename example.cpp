@@ -11,7 +11,7 @@ void validate( const T & o, const std::string & name )
 {
     try
     {
-        dtmf_tools::validator::validate( o );
+        dtmf_tools_protocol::validator::validate( o );
         std::cout << name << " : valid" << std::endl;
     }
     catch( std::exception & e )
@@ -24,9 +24,9 @@ void validate( const T & o, const std::string & name )
 
 void example_tone_e()
 {
-    auto obj = dtmf_tools::dummy::create__tone_e();
+    auto obj = dtmf_tools_protocol::dummy::create__tone_e();
 
-    std::cout << "tone_e : STR : " << dtmf_tools::str_helper::to_string( obj ) << std::endl;
+    std::cout << "tone_e : STR : " << dtmf_tools_protocol::str_helper::to_string( obj ) << std::endl;
 }
 
 

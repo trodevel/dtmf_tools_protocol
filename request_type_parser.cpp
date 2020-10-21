@@ -4,10 +4,10 @@
 // includes
 #include "request_type_parser.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
-#define TUPLE_VAL_STR(_x_)  _x_,"dtmf_tools/"+std::string(#_x_)
+#define TUPLE_VAL_STR(_x_)  _x_,"dtmf_tools_protocol/"+std::string(#_x_)
 
 template< typename _U, typename _V >
 std::pair<_V,_U> make_inverse_pair( _U first, _V second )
@@ -32,5 +32,5 @@ request_type_e RequestTypeParser::to_request_type( const std::string & s )
 
     return it->second;
 }
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 

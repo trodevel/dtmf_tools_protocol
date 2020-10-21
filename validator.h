@@ -6,7 +6,7 @@
 
 #include <string>
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace validator
@@ -23,6 +23,6 @@ bool validate( const std::string & prefix, const tone_e r );
 
 } // namespace validator
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 
 #endif // APG_DTMF_TOOLS__VALIDATOR_H

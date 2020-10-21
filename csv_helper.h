@@ -7,7 +7,7 @@
 // includes
 #include "protocol.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace csv_helper
@@ -36,6 +36,6 @@ std::string to_csv( const T & l )
 
 } // namespace csv_helper
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 
 #endif // APG_DTMF_TOOLS__CSV_HELPER_H

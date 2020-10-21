@@ -1,13 +1,13 @@
 <?php
 
-namespace dtmf_tools;
+namespace dtmf_tools_protocol;
 
 
-// includes
-require_once 'protocol.php';
-require_once 'dummy_creator.php';
-require_once 'str_helper.php';
-require_once 'request_encoder.php';
+// own includes
+require_once __DIR__.'/../dtmf_tools_protocol/protocol.php';
+require_once __DIR__.'/../dtmf_tools_protocol/dummy_creator.php';
+require_once __DIR__.'/../dtmf_tools_protocol/str_helper.php';
+require_once __DIR__.'/../dtmf_tools_protocol/request_encoder.php';
 
 # objects
 
@@ -24,7 +24,7 @@ require_once 'request_encoder.php';
 
 }
 
-# namespace_end dtmf_tools
+// namespace_end dtmf_tools_protocol
 
 
 ?>

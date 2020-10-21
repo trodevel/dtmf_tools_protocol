@@ -9,7 +9,7 @@
 #include "validator.h"
 #include "request_type_parser.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace parser
@@ -41,5 +41,5 @@ void get_value_or_throw( tone_e * res, const std::string & key, const generic_re
 
 } // namespace parser
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 

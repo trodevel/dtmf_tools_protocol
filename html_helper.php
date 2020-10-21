@@ -1,11 +1,13 @@
 <?php
 
-namespace dtmf_tools;
+namespace dtmf_tools_protocol;
 
 
 // includes
 require_once __DIR__.'/../basic_parser/html_helper.php';
-require_once 'str_helper.php';
+
+// own includes
+require_once __DIR__.'/../dtmf_tools_protocol/str_helper.php';
 
 // enums
 
@@ -38,14 +40,14 @@ function to_html( $obj )
 
     if( array_key_exists( $type, $handler_map ) )
     {
-        $func = '\\dtmf_tools\\' . $handler_map[ $type ];
+        $func = '\\dtmf_tools_protocol\\' . $handler_map[ $type ];
         return $func( $obj );
     }
 
     return NULL;
 }
 
-# namespace_end dtmf_tools
+// namespace_end dtmf_tools_protocol
 
 
 ?>

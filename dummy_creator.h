@@ -4,7 +4,7 @@
 // includes
 #include "protocol.h"
 
-namespace dtmf_tools
+namespace dtmf_tools_protocol
 {
 
 namespace dummy
@@ -22,6 +22,6 @@ tone_e create__tone_e();
 
 } // namespace dummy
 
-} // namespace dtmf_tools
+} // namespace dtmf_tools_protocol
 
 #endif // APG_DTMF_TOOLS__DUMMY_CREATOR_H

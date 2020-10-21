@@ -19,11 +19,17 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 13520 $ $Date:: 2020-08-19 #$ $Author: serge $
+// $Revision: 13990 $ $Date:: 2020-10-21 #$ $Author: serge $
 
 #ifndef DTMF_TOOLS_PROTOCOL__PROTOCOL_H
 #define DTMF_TOOLS_PROTOCOL__PROTOCOL_H
 
 #include "dtmf_tools/dtmf_enum.h"          // tone_e
+
+namespace dtmf_tools_protocol {
+
+typedef ::dtmf_tools::tone_e tone_e;
+
+}
 
 #endif // DTMF_TOOLS_PROTOCOL__PROTOCOL_H
